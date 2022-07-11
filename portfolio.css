@@ -1,0 +1,151 @@
+html {
+	background-color: #292552;
+	font-size: 10px;
+	color: white;
+	font-family: Consolas, monaco, monospace;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	flex-direction: row;
+	background-color: #292552;
+	width: 100vw;
+}
+
+main {
+	margin: 0px;
+}
+
+.im-george {
+	display: flex;
+	gap: 10px;
+	padding-left:20px;
+	font-size: 2rem;
+}
+
+.links {
+	display: flex;
+	gap: 10px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+}
+
+a {
+	display: flex;
+	font-family: Consolas, monaco, monospace;
+	color: white;
+	text-decoration: none;
+	gap: 10px;
+	padding: 10px;
+}
+
+.about-link {
+	color: #fcba03;
+	
+}
+
+.portfolio-link {
+	color: #fce092;
+	
+}
+
+.contact-link {
+	color: #fff7e0;
+	
+}
+
+.about-link, .portfolio-link, .contact-link{
+	
+}
+
+.greeting {
+	background-color: white;
+	color: #292552;
+	padding: 200px 100px;
+	max-height: 100vh;
+	
+}
+
+.me {
+	display: flex;
+	position:;
+	width: 100%;
+	min-width: 225px;
+	max-width: 500px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about-me {
+	padding: 200px 100px;
+	background-color: #787cad;
+}
+
+.about-me-title {
+	color: #fce092;
+	text-align: right;
+}
+
+.cv {
+	color: #ad5b03;
+	text-align: right;
+}
+
+#portfolio {
+	padding: 50px 50px;
+}
+
+.portfolio-title {
+	color: #fce092;
+}
+
+.dog1, .dog2{
+	display: flex;
+	width: 100%;
+	min-width: 225px;
+	max-width: 500px;
+}
+
+.dog2 {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.project-1, .project-2, .project-3 {
+	padding-top: 150px;
+}
+.project-2 {
+	text-align: right;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100vw;
+	background-color: #787cad;
+}
+
+#contact {
+	display: flex;
+	gap: 10px;
+	padding-left:10px;
+	font-size: 2rem;
+}
+
+.contact-links {
+	display: flex;
+	gap: 5px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+}
