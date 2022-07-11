@@ -1,6 +1,6 @@
 html {
 	background-color: #292552;
-	font-size: 10px;
+	font-size: 12px;
 	color: white;
 	font-family: Consolas, monaco, monospace;
 	scroll-behavior: smooth;
@@ -17,6 +17,7 @@ body {
 	flex-direction: row;
 	background-color: #292552;
 	width: 100vw;
+	align-items: stretch;
 }
 
 main {
@@ -35,7 +36,9 @@ main {
 	gap: 10px;
 	text-decoration: none;
 	color: white;
-	padding-right: 20px;
+	padding-right: 30px;
+	align-items: center;
+	font-size: 1.5rem;
 }
 
 a {
@@ -44,7 +47,6 @@ a {
 	color: white;
 	text-decoration: none;
 	gap: 10px;
-	padding: 10px;
 }
 
 .about-link {
@@ -62,16 +64,10 @@ a {
 	
 }
 
-.about-link, .portfolio-link, .contact-link{
-	
-}
-
 .greeting {
-	background-color: white;
-	color: #292552;
+	background-color: #f0f0fc;
 	padding: 200px 100px;
 	max-height: 100vh;
-	
 }
 
 .me {
@@ -85,6 +81,23 @@ a {
 	margin-right: auto;
 }
 
+.hello {
+	font-size: 3rem;
+	color: #292552;
+}
+
+.intro {
+	color: #9393c9
+}
+
+.cv {
+	color: #ad5b03;
+	text-align: right;
+	margin: 0px;
+}
+
+
+
 #about-me {
 	padding: 200px 100px;
 	background-color: #787cad;
@@ -93,12 +106,10 @@ a {
 .about-me-title {
 	color: #fce092;
 	text-align: right;
+	font-size: 3rem;
 }
 
-.cv {
-	color: #ad5b03;
-	text-align: right;
-}
+
 
 #portfolio {
 	padding: 50px 50px;
@@ -106,6 +117,7 @@ a {
 
 .portfolio-title {
 	color: #fce092;
+	font-size: 3rem;
 }
 
 .dog1, .dog2{
@@ -123,6 +135,11 @@ a {
 .project-1, .project-2, .project-3 {
 	padding-top: 150px;
 }
+
+.projecttitle1, .projecttitle2, .projecttitle3 {
+	color: #cfcffc;
+}
+ 
 .project-2 {
 	text-align: right;
 }
