@@ -6,6 +6,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0px;
 }
@@ -18,6 +22,7 @@ body {
 	background-color: #292552;
 	width: 100vw;
 	align-items: stretch;
+	padding: 15px 0px 15px 0px;
 }
 
 main {
@@ -64,10 +69,11 @@ a {
 	
 }
 
-.greeting {
+#greeting {
 	background-color: #f0f0fc;
 	padding: 150px 100px;
-	max-height: 100vh;
+	
+	
 }
 
 .dog-main-pic {
@@ -81,24 +87,23 @@ a {
 	margin-right: auto;
 }
 
-.hello {
+.hello-there {
 	font-size: 3rem;
 	color: #292552;
 }
 
-.intro {
+.intro-text {
 	color: #9393c9
 }
 
-.cv {
+.cv-link {
 	color: #ad5b03;
 	text-align: right;
 	margin: 0px;
 }
 
 
-
-#about-me {
+#about-me-section {
 	padding: 150px 100px;
 	background-color: #787cad;
 }
@@ -112,7 +117,7 @@ a {
 
 
 #portfolio {
-	padding: 50px;
+	padding: 150px 50px 150px 50px;
 }
 
 .portfolio-title {
