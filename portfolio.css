@@ -1,6 +1,6 @@
 html {
 	background-color: #292552;
-	font-size: 12px;
+	font-size: 14px;
 	color: white;
 	font-family: Consolas, monaco, monospace;
 	scroll-behavior: smooth;
@@ -18,10 +18,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
-	flex-direction: row;
 	background-color: #292552;
 	width: 100vw;
-	align-items: stretch;
 	padding: 15px 0px 15px 0px;
 }
 
@@ -31,7 +29,6 @@ main {
 
 #im-george-heading {
 	display: flex;
-	gap: 10px;
 	padding-left:20px;
 	font-size: 2rem;
 }
@@ -43,7 +40,7 @@ main {
 	color: white;
 	padding-right: 20px;
 	align-items: center;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 a {
@@ -72,13 +69,10 @@ a {
 #greeting {
 	background-color: #f0f0fc;
 	padding: 150px 100px;
-	
-	
 }
 
 .dog-main-pic {
 	display: flex;
-	position:;
 	width: 100%;
 	min-width: 225px;
 	max-width: 500px;
@@ -97,9 +91,10 @@ a {
 }
 
 .cv-link {
-	color: #ad5b03;
+	color: #babaf7;
 	text-align: right;
 	margin: 0px;
+	text-decoration: underline;
 }
 
 
@@ -149,21 +144,13 @@ a {
 	text-align: right;
 }
 
-.projectmaintext {
+.projectmaintext1, .projectmaintext2, .projectmaintext3 {
 	margin: 0px;
 	padding: 12px 0px 12px 0px;
-	border-bottom: 1px solid #fce092;
+	border-bottom: 1px solid #7f7fc9;
 	margin-bottom: 20px;
 }
 
- {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	background-color: #292552;
-	width: 100vw;
-	align-items: stretch;
-}
 
 #contact {
 	background-color: #787cad;
@@ -187,4 +174,60 @@ a {
 	color: white;
 	padding-right: 20px;
 	align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+	html {
+		font-size: 12px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navigation {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	
+	.links {
+		font-size: 1.5rem;
+		gap: 20px;
+	}
+	
+	#greeting {
+		padding: 100px 25% 50px 25%;
+	}
+	
+	.dog-main-pic {
+		float: right;
+		margin: 40px;
+		padding: 0px;
+	}
+	
+	.hello-there {
+		float: left;
+	}
+	
+	.intro-text {
+		float: left;
+		max-width: 200px;
+	}	
+	
+	#about-me-section {
+		padding: 100px 30% 50px 30%;
+	}
+	
+	.about-me-title {
+		padding-right: 15%;
+	}
+	
+	.about-me-text {
+		align: right;
+		width: 75%;
+	}
+	
+	
 }
