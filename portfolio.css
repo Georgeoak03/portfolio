@@ -24,7 +24,7 @@ main {
 	margin: 0px;
 }
 
-.im-george {
+.im-george-heading {
 	display: flex;
 	gap: 10px;
 	padding-left:20px;
@@ -70,7 +70,7 @@ a {
 	max-height: 100vh;
 }
 
-.me {
+.dog-main-pic {
 	display: flex;
 	position:;
 	width: 100%;
@@ -112,7 +112,7 @@ a {
 
 
 #portfolio {
-	padding: 50px 50px;
+	padding: 200px 50px;
 }
 
 .portfolio-title {
@@ -144,19 +144,21 @@ a {
 	text-align: right;
 }
 
-.footer {
+ {
 	display: flex;
 	justify-content: space-between;
-	position: fixed;
+	flex-direction: row;
+	background-color: #292552;
 	width: 100vw;
-	background-color: #787cad;
+	align-items: stretch;
 }
 
-#contact {
+.contact-title {
 	display: flex;
 	gap: 10px;
 	padding-left:10px;
 	font-size: 2rem;
+	color: white;
 }
 
 .contact-links {
