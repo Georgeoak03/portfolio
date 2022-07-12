@@ -68,7 +68,8 @@ a {
 
 #greeting {
 	background-color: #f0f0fc;
-	padding: 150px 100px;
+	padding: 100px 50px;
+
 }
 
 .dog-main-pic {
@@ -99,7 +100,7 @@ a {
 
 
 #about-me-section {
-	padding: 150px 100px;
+	padding: 100px 50px;
 	background-color: #787cad;
 }
 
@@ -112,15 +113,16 @@ a {
 
 
 #portfolio {
-	padding: 150px 50px 150px 50px;
+	padding: 100px 50px 100px 50px;
 }
 
 .portfolio-title {
+	display: flex;
 	color: #fce092;
 	font-size: 3rem;
 }
 
-.dog1, .dog2{
+.dog1, .dog2, .dog3{
 	display: flex;
 	width: 100%;
 	min-width: 225px;
@@ -133,10 +135,13 @@ a {
 }
 
 .project-1, .project-2, .project-3 {
+	display: flex;
+	flex-wrap: wrap;
 	padding-top: 50px;
 }
 
 .projecttitle1, .projecttitle2, .projecttitle3 {
+	display: flex;
 	color: #cfcffc;
 }
  
@@ -145,8 +150,9 @@ a {
 }
 
 .projectmaintext1, .projectmaintext2, .projectmaintext3 {
+	display: flex;
 	margin: 0px;
-	padding: 12px 0px 12px 0px;
+	padding-bottom: 20px;
 	border-bottom: 1px solid #7f7fc9;
 	margin-bottom: 20px;
 }
@@ -156,7 +162,7 @@ a {
 	background-color: #787cad;
 	justify-content: space-between;
 	display: flex;
-	padding: 50px;
+	padding: 25px;
 }
 
 .contact-title {
@@ -214,14 +220,16 @@ a {
 	.intro-text {
 		float: left;
 		max-width: 200px;
+		padding: 20px;
 	}	
 	
 	#about-me-section {
-		padding: 100px 30% 50px 30%;
+		padding: 50px 30% 50px 30%;
 	}
 	
 	.about-me-title {
 		padding-right: 15%;
+		margin-top: 0px;
 	}
 	
 	.about-me-text {
@@ -229,5 +237,23 @@ a {
 		width: 75%;
 	}
 	
+	#portfolio {
+		padding: 200px;
+	}
+	
+	.portfolio-title {
+		margin: 0px;
+	}
+	
+	.projecttitle1, .projecttitle2, .projecttitle3 {
+		margin: none;
+		padding: 30px 0px 0px 15px;
+		margin: 0px;
+	}
+	.projectmaintext1, .projectmaintext2, .projectmaintext3 {
+		max-width: 400px;
+		padding: 60px 20px;
+		border: none;
+	} 
 	
 }
