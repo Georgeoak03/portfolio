@@ -1,0 +1,265 @@
+html {
+	background-color: #292552;
+	font-size: 14px;
+	color: white;
+	font-family: Consolas, monaco, monospace;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #292552;
+	width: 100vw;
+	padding: 15px 0px 15px 0px;
+}
+
+main {
+	margin: 0px;
+}
+
+#im-george-heading {
+	display: flex;
+	padding-left:20px;
+	font-size: 2rem;
+}
+
+.links {
+	display: flex;
+	gap: 10px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+	align-items: center;
+	font-size: 1rem;
+}
+
+a {
+	display: flex;
+	font-family: Consolas, monaco, monospace;
+	color: white;
+	text-decoration: none;
+	gap: 10px;
+}
+
+.about-link {
+	color: #fcba03;
+	
+}
+
+.portfolio-link {
+	color: #fce092;
+	
+}
+
+.contact-link {
+	color: #fff7e0;
+	
+}
+
+#greeting {
+	background-color: #f0f0fc;
+	padding: 100px 50px;
+
+}
+
+.dog-main-pic {
+	display: flex;
+	width: 100%;
+	min-width: 225px;
+	max-width: 500px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hello-there {
+	font-size: 3rem;
+	color: #292552;
+}
+
+.intro-text {
+	color: #9393c9
+}
+
+.cv-link {
+	color: #babaf7;
+	text-align: right;
+	margin: 0px;
+	text-decoration: underline;
+}
+
+
+#about-me-section {
+	padding: 100px 50px;
+	background-color: #787cad;
+}
+
+.about-me-title {
+	color: #fce092;
+	text-align: right;
+	font-size: 3rem;
+}
+
+
+
+#portfolio {
+	padding: 100px 50px 100px 50px;
+}
+
+.portfolio-title {
+	display: flex;
+	color: #fce092;
+	font-size: 3rem;
+	margin: 0px;
+}
+
+.dog1, .dog2, .dog3{
+	display: flex;
+	width: 100%;
+	min-width: 225px;
+	max-width: 500px;
+}
+
+.dog2 {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+
+.project-1, .project-2, .project-3 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+}
+
+.projecttitle1, .projecttitle2, .projecttitle3 {
+	display: flex;
+	color: #cfcffc;
+}
+ 
+.project-2 {
+	text-align: right;
+}
+
+.projectmaintext1, .projectmaintext2, .projectmaintext3 {
+	display: flex;
+	margin: 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3c3c6e;
+	margin-bottom: 20px;
+}
+
+
+#contact {
+	background-color: #787cad;
+	justify-content: space-between;
+	display: flex;
+	padding: 20px;
+}
+
+.contact-title {
+	display: flex;
+	gap: 10px;
+	padding-left:10px;
+	font-size: 2rem;
+	color: white;
+}
+
+.contact-links {
+	display: flex;
+	gap: 5px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+	align-items: center;
+}
+
+.copyright {
+	margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+	html {
+		font-size: 12px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navigation {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	
+	.links {
+		font-size: 1.5rem;
+		gap: 20px;
+	}
+	
+	#greeting {
+		padding: 100px 25% 50px 25%;
+	}
+	
+	.dog-main-pic {
+		float: right;
+		margin: 40px;
+		padding: 0px;
+	}
+	
+	.hello-there {
+		float: left;
+	}
+	
+	.intro-text {
+		float: left;
+		max-width: 200px;
+		padding: 20px;
+	}	
+	
+	#about-me-section {
+		padding: 50px 30% 50px 30%;
+	}
+	
+	.about-me-title {
+		padding-right: 15%;
+		margin-top: 0px;
+	}
+	
+	.about-me-text {
+		align: right;
+		width: 75%;
+	}
+	
+	#portfolio {
+		padding: 200px;
+	}
+	
+	.portfolio-title {
+		margin: 0px;
+	}
+	
+	.projecttitle1, .projecttitle2, .projecttitle3 {
+		margin: none;
+		padding: 30px 0px 0px 15px;
+		margin: 0px;
+	}
+	.projectmaintext1, .projectmaintext2, .projectmaintext3 {
+		max-width: 400px;
+		padding: 60px 20px;
+		border: none;
+	} 
+	
+}
