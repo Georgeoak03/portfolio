@@ -290,12 +290,5 @@ footer {
 	#contact {
 		padding: 15px 100px;
 	}
-	/*.contact-links {
-		display: flex;
-		gap: 40px;
-		font-size: 6rem;
-		position: fixed;
-		z-index: 100;
-		background-color: #292552;
-	}*/
+
 }
