@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	margin: 0px;
+	margin: 0;
 }
 
 .navigation {
@@ -20,11 +20,11 @@ body {
 	position: fixed;
 	background-color: #292552;
 	width: 100vw;
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0 15px 0;
 }
 
 main {
-	margin: 0px;
+	margin: 0;
 }
 
 #im-george-heading {
@@ -67,8 +67,9 @@ a {
 }
 
 #greeting {
-	background-color: #f0f0fc;
-	padding: 100px 50px;
+	background-color: #f5f5f7;
+	padding: 25% 50px;
+	height: 100vh;
 
 }
 
@@ -77,14 +78,16 @@ a {
 	width: 100%;
 	min-width: 225px;
 	max-width: 500px;
-	padding-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-top: 40%;
+	align-items: center;
+
+	
 }
 
 .hello-there {
 	font-size: 3rem;
 	color: #292552;
+	padding-top: 20%;
 }
 
 .intro-text {
@@ -92,9 +95,10 @@ a {
 }
 
 .cv-link {
+	display: flex;
 	color: #babaf7;
 	text-align: right;
-	margin: 0px;
+	margin: 0;
 	text-decoration: underline;
 }
 
@@ -118,9 +122,9 @@ a {
 
 .portfolio-title {
 	display: flex;
-	color: #fce092;
+	color: #fcba03;
 	font-size: 3rem;
-	margin: 0px;
+	margin: 0;
 }
 
 .dog1, .dog2, .dog3{
@@ -142,7 +146,7 @@ a {
 	padding-top: 100px;
 }
 
-.projecttitle1, .projecttitle2, .projecttitle3 {
+.project-title1, .project-title2, .project-title3 {
 	display: flex;
 	color: #cfcffc;
 }
@@ -151,9 +155,9 @@ a {
 	text-align: right;
 }
 
-.projectmaintext1, .projectmaintext2, .projectmaintext3 {
+.project-main-text1, .project-main-text2, .project-main-text3 {
 	display: flex;
-	margin: 0px;
+	margin: 0;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #3c3c6e;
 	margin-bottom: 20px;
@@ -177,15 +181,25 @@ a {
 
 .contact-links {
 	display: flex;
-	gap: 5px;
+	gap: 10px;
 	text-decoration: none;
 	color: white;
 	padding-right: 20px;
 	align-items: center;
 }
 
+.email-link, .linkedin-link, .twitter-link, .github-link {
+	font-size: 4rem;
+}
+
+footer {
+	diplay: block;
+	padding: 5px;
+}
+
 .copyright {
-	margin: 10px;
+	display: inline-block;
+	margin: 0;
 }
 
 @media screen and (min-width: 600px) {
@@ -210,17 +224,19 @@ a {
 	}
 	
 	#greeting {
-		padding: 100px 25% 50px 25%;
+		padding: 15%  25% 50px 25%;
 	}
 	
 	.dog-main-pic {
 		float: right;
 		margin: 40px;
-		padding: 0px;
+		padding: 0;
 	}
 	
 	.hello-there {
 		float: left;
+		font-size: 4rem;
+		padding: 0;
 	}
 	
 	.intro-text {
@@ -230,16 +246,15 @@ a {
 	}	
 	
 	#about-me-section {
-		padding: 50px 30% 50px 30%;
+		padding: 100px 30% 100px 30%;
 	}
 	
 	.about-me-title {
 		padding-right: 15%;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 	
 	.about-me-text {
-		align: right;
 		width: 75%;
 	}
 	
@@ -248,18 +263,22 @@ a {
 	}
 	
 	.portfolio-title {
-		margin: 0px;
+		margin: 0;
 	}
 	
-	.projecttitle1, .projecttitle2, .projecttitle3 {
-		margin: none;
-		padding: 30px 0px 0px 15px;
-		margin: 0px;
+	.project-title1, .project-title2, .project-title3 {
+		margin: 0;
+		padding: 30px 0 0 15px;
+
 	}
-	.projectmaintext1, .projectmaintext2, .projectmaintext3 {
+	.project-main-text1, .project-main-text2, .project-main-text3 {
 		max-width: 400px;
 		padding: 60px 20px;
 		border: none;
-	} 
-	
+	}
+
+	.contact-links {
+		gap: 40px;
+		font-size: 6rem;
+	}
 }
