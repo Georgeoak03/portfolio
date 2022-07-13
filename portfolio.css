@@ -33,6 +33,7 @@ main {
 	font-size: 2rem;
 }
 
+
 .links {
 	display: flex;
 	gap: 10px;
@@ -80,14 +81,17 @@ a {
 	max-width: 500px;
 	padding-top: 40%;
 	align-items: center;
-
-	
 }
 
 .hello-there {
 	font-size: 3rem;
 	color: #292552;
 	padding-top: 20%;
+}
+
+.training-developer {
+	font-size: 1.5rem;
+	color: #030591;
 }
 
 .intro-text {
@@ -160,7 +164,6 @@ a {
 	margin: 0;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #3c3c6e;
-	margin-bottom: 20px;
 }
 
 
@@ -193,13 +196,20 @@ a {
 }
 
 footer {
-	diplay: block;
+	display: block;
 	padding: 5px;
 }
 
 .copyright {
 	display: inline-block;
 	margin: 0;
+}
+
+.github-link-portfolio {
+	display: inline-box;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3c3c6e;
 }
 
 @media screen and (min-width: 600px) {
@@ -265,7 +275,7 @@ footer {
 	.portfolio-title {
 		margin: 0;
 	}
-	
+
 	.project-title1, .project-title2, .project-title3 {
 		margin: 0;
 		padding: 30px 0 0 15px;
@@ -277,8 +287,15 @@ footer {
 		border: none;
 	}
 
-	.contact-links {
+	#contact {
+		padding: 15px 100px;
+	}
+	/*.contact-links {
+		display: flex;
 		gap: 40px;
 		font-size: 6rem;
-	}
+		position: fixed;
+		z-index: 100;
+		background-color: #292552;
+	}*/
 }
