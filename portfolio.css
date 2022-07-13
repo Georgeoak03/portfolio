@@ -21,6 +21,7 @@ body {
 	background-color: #292552;
 	width: 100vw;
 	padding: 15px 0 15px 0;
+	border-bottom: solid 2px #787cad;
 }
 
 main {
@@ -49,29 +50,33 @@ a {
 	font-family: Consolas, monaco, monospace;
 	color: white;
 	text-decoration: none;
+	padding: 2px;
 	gap: 10px;
 }
 
+a:hover {
+	transition: 0.7s ease;
+	padding: 2px;
+	border: solid #787cad 2px;
+}
+
+
 .about-link {
 	color: #fcba03;
-	
 }
 
 .portfolio-link {
 	color: #fce092;
-	
 }
 
 .contact-link {
 	color: #fff7e0;
-	
 }
 
 #greeting {
 	background-color: #f5f5f7;
 	padding: 25% 50px;
 	height: 100vh;
-
 }
 
 .dog-main-pic {
@@ -106,6 +111,9 @@ a {
 	text-decoration: underline;
 }
 
+.cv-link:hover {
+	border: 0;
+}
 
 #about-me-section {
 	padding: 100px 50px;
@@ -205,13 +213,6 @@ footer {
 	margin: 0;
 }
 
-.github-link-portfolio {
-	display: inline-box;
-	margin: 0;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #3c3c6e;
-}
-
 @media screen and (min-width: 600px) {
 	html {
 		font-size: 12px;
@@ -227,7 +228,9 @@ footer {
 		justify-content: space-around;
 	}
 	
-	
+	#im-george-heading {
+		padding: 0;
+	}
 	.links {
 		font-size: 1.5rem;
 		gap: 20px;
@@ -254,7 +257,7 @@ footer {
 		max-width: 200px;
 		padding: 20px;
 	}	
-	
+
 	#about-me-section {
 		padding: 100px 30% 100px 30%;
 	}
