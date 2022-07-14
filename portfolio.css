@@ -47,7 +47,7 @@ main {
 }
 
 a {
-	display: flex;
+	display: inline-block;
 	font-family: Consolas, monaco, monospace;
 	color: white;
 	text-decoration: none;
@@ -77,7 +77,6 @@ a:hover {
 #greeting {
 	display: flex;
 	background-color: #f5f5f7;
-	/*background-image: linear-gradient(#f5f5f7, #f5f5f7, #f5f5f7, #787cad);*/
 	padding: 175px 50px 150px 50px;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -132,13 +131,13 @@ a:hover {
 }
 
 .portfolio-title {
-	display: flex;
+	display: inline-block;
 	color: #fcba03;
 	font-size: 3rem;
 	margin: 0;
 }
 
-.dog1, .dog2, .dog3{
+.project-img1, .project-img2, .project-img3{
 	display: flex;
 	width: 100%;
 	min-width: 225px;
@@ -146,7 +145,7 @@ a:hover {
 	padding: 20px;
 }
 
-.dog2 {
+.project-img2 {
 	margin-right: 0;
 	margin-left: auto;
 }
@@ -167,7 +166,7 @@ a:hover {
 	text-align: right;
 }
 
-.project-main-text1, .project-main-text2, .project-main-text3 {
+.project-description1, .project-description2, .project-description3 {
 	display: flex;
 	margin: 0;
 	padding-bottom: 20px;
@@ -182,14 +181,14 @@ a:hover {
 }
 
 .contact-title {
-	display: flex;
+	display: inline-block;
 	gap: 10px;
 	padding-left:10px;
 	font-size: 2rem;
 	color: white;
 }
 
-.contact-links {
+.contact-links-container {
 	display: flex;
 	gap: 10px;
 	text-decoration: none;
@@ -244,7 +243,7 @@ footer {
 	.me-pic {
 		position: absolute;
 		top: 300px;
-		align-self: flex-end;
+		right:400px;
 		display: inline;
 		max-width: 400px;
 	}
@@ -276,7 +275,7 @@ footer {
 		margin: 0;
 		top: 150px;
 		width: 200px;
-		right: 250px;
+		right: 350px;
 	}
 
 	#about-me-section {
@@ -305,7 +304,7 @@ footer {
 		padding: 30px 0 0 15px;
 
 	}
-	.project-main-text1, .project-main-text2, .project-main-text3 {
+	.project-description1, .project-description2, .project-description3 {
 		max-width: 400px;
 		padding: 60px 20px;
 		border: none;
