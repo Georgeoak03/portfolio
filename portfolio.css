@@ -77,15 +77,15 @@ a:hover {
 #greeting {
 	display: flex;
 	background-color: #f5f5f7;
+	/*background-image: linear-gradient(#f5f5f7, #f5f5f7, #f5f5f7, #787cad);*/
 	padding: 175px 50px 150px 50px;
-	height: 100vh;
 	flex-wrap: wrap;
 	flex-direction: column;
 }
 
-.dog-main-pic {
+.me-pic {
 	width: 75%;
-	max-width: 400px;
+	max-width: 300px;
 	align-self: center;
 	filter: grayscale(100%);
 }
@@ -130,7 +130,7 @@ a:hover {
 
 
 #portfolio {
-	padding: 100px 50px 100px 50px;
+	padding: 100px 50px;
 }
 
 .portfolio-title {
@@ -232,6 +232,7 @@ footer {
 	#im-george-heading {
 		padding: 0;
 	}
+
 	.links {
 		font-size: 1.5rem;
 		gap: 20px;
@@ -242,11 +243,12 @@ footer {
 		padding: 200px 20% 50px 20%;
 	}
 	
-	.dog-main-pic {
+	.me-pic {
 		position: absolute;
 		top: 300px;
 		align-self: flex-end;
 		display: inline;
+		max-width: 400px;
 	}
 	
 	.hello-there {
