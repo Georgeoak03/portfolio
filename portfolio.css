@@ -22,6 +22,7 @@ body {
 	width: 100vw;
 	padding: 15px 0 15px 0;
 	border-bottom: solid 2px #787cad;
+	z-index: 10;
 }
 
 main {
@@ -74,33 +75,33 @@ a:hover {
 }
 
 #greeting {
+	display: flex;
 	background-color: #f5f5f7;
-	padding: 25% 50px;
+	padding: 175px 50px 150px 50px;
 	height: 100vh;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .dog-main-pic {
-	display: flex;
-	width: 100%;
-	min-width: 225px;
-	max-width: 500px;
-	padding-top: 40%;
-	align-items: center;
+	width: 75%;
+	max-width: 400px;
+	align-self: center;
+	filter: grayscale(100%);
 }
 
 .hello-there {
 	font-size: 3rem;
 	color: #292552;
-	padding-top: 20%;
 }
 
 .training-developer {
 	font-size: 1.5rem;
-	color: #030591;
+	color: #9393c9;
 }
 
 .intro-text {
-	color: #9393c9
+	color: #030591;
 }
 
 .cv-link {
@@ -171,7 +172,7 @@ a:hover {
 	display: flex;
 	margin: 0;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #3c3c6e;
+	border-bottom: 2px solid #3c3c6e;
 }
 
 
@@ -237,26 +238,46 @@ footer {
 	}
 	
 	#greeting {
-		padding: 15%  25% 50px 25%;
+		height: 100vh;
+		padding: 200px 20% 50px 20%;
 	}
 	
 	.dog-main-pic {
-		float: right;
-		margin: 40px;
-		padding: 0;
+		position: absolute;
+		top: 300px;
+		align-self: flex-end;
+		display: inline;
 	}
 	
 	.hello-there {
+		position: relative;
 		float: left;
 		font-size: 4rem;
-		padding: 0;
+		padding: 20px 20px 0 20px;
+		margin: 0;
 	}
 	
 	.intro-text {
+		display: flex;
+		position: absolute;
 		float: left;
-		max-width: 200px;
-		padding: 20px;
+		padding: 0 20px 20px 20px;
 	}	
+
+	.training-developer {
+		position: relative;
+		margin: 0;
+		top: 100px;
+		left: 40px;
+	}
+
+	.training-developer-p {
+		position: relative;
+		margin: 0;
+		top: 150px;
+		width: 200px;
+		right: 250px;
+	}
 
 	#about-me-section {
 		padding: 100px 30% 100px 30%;
