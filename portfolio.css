@@ -145,6 +145,7 @@ a:hover {
 	width: 100%;
 	min-width: 225px;
 	max-width: 500px;
+	padding: 20px;
 }
 
 .dog2 {
@@ -174,7 +175,6 @@ a:hover {
 	padding-bottom: 20px;
 	border-bottom: 2px solid #3c3c6e;
 }
-
 
 #contact {
 	background-color: #787cad;
@@ -214,7 +214,7 @@ footer {
 	margin: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1350px) {
 	html {
 		font-size: 12px;
 	}
