@@ -1,0 +1,317 @@
+html {
+	background-color: #292552;
+	font-size: 14px;
+	color: white;
+	font-family: Consolas, monaco, monospace;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #292552;
+	width: 100vw;
+	padding: 15px 0 15px 0;
+	border-bottom: solid 2px #787cad;
+	z-index: 10;
+}
+
+main {
+	margin: 0;
+}
+
+#im-george-heading {
+	display: flex;
+	padding-left:20px;
+	font-size: 2rem;
+}
+
+
+.links {
+	display: flex;
+	gap: 10px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+	align-items: center;
+	font-size: 1rem;
+}
+
+a {
+	display: inline-block;
+	font-family: Consolas, monaco, monospace;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	gap: 10px;
+}
+
+a:hover {
+	transition: 0.7s ease;
+	padding: 2px;
+	border: solid #787cad 2px;
+}
+
+
+.about-link {
+	color: #fcba03;
+}
+
+.portfolio-link {
+	color: #fce092;
+}
+
+.contact-link {
+	color: #fff7e0;
+}
+
+#greeting {
+	display: flex;
+	background-color: #f5f5f7;
+	padding: 175px 50px 150px 50px;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.me-pic {
+	width: 75%;
+	max-width: 300px;
+	align-self: center;
+	filter: grayscale(100%);
+}
+
+.hello-there {
+	font-size: 3rem;
+	color: #292552;
+}
+
+.training-developer {
+	font-size: 1.5rem;
+	color: #9393c9;
+}
+
+.intro-text {
+	color: #030591;
+}
+
+.cv-link {
+	display: flex;
+	color: #babaf7;
+	text-align: right;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.cv-link:hover {
+	border: 0;
+}
+
+#about-me-section {
+	padding: 100px 50px;
+	background-color: #787cad;
+}
+
+.about-me-title {
+	color: #fce092;
+	text-align: right;
+	font-size: 3rem;
+}
+
+#portfolio {
+	padding: 100px 50px;
+}
+
+.portfolio-title {
+	display: inline-block;
+	color: #fcba03;
+	font-size: 3rem;
+	margin: 0;
+}
+
+.project-img1, .project-img2, .project-img3{
+	display: flex;
+	width: 100%;
+	min-width: 225px;
+	max-width: 500px;
+	padding: 20px;
+}
+
+.project-img2 {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+
+.project-1, .project-2, .project-3 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+}
+
+.project-title1, .project-title2, .project-title3 {
+	display: flex;
+	color: #cfcffc;
+}
+ 
+.project-2 {
+	text-align: right;
+}
+
+.project-description1, .project-description2, .project-description3 {
+	display: flex;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #3c3c6e;
+}
+
+#contact {
+	background-color: #787cad;
+	justify-content: space-between;
+	display: flex;
+	padding: 20px;
+}
+
+.contact-title {
+	display: inline-block;
+	gap: 10px;
+	padding-left:10px;
+	font-size: 2rem;
+	color: white;
+}
+
+.contact-links-container {
+	display: flex;
+	gap: 10px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+	align-items: center;
+}
+
+.email-link, .linkedin-link, .twitter-link, .github-link {
+	font-size: 4rem;
+}
+
+footer {
+	display: block;
+	padding: 5px;
+}
+
+.copyright {
+	display: inline-block;
+	margin: 0;
+}
+
+@media screen and (min-width: 1350px) {
+	html {
+		font-size: 12px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navigation {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	#im-george-heading {
+		padding: 0;
+	}
+
+	.links {
+		font-size: 1.5rem;
+		gap: 20px;
+	}
+	
+	#greeting {
+		height: 100vh;
+		padding: 200px 20% 50px 20%;
+	}
+	
+	.me-pic {
+		position: absolute;
+		top: 300px;
+		right:400px;
+		display: inline;
+		max-width: 400px;
+	}
+	
+	.hello-there {
+		position: relative;
+		float: left;
+		font-size: 4rem;
+		padding: 20px 20px 0 20px;
+		margin: 0;
+	}
+	
+	.intro-text {
+		display: flex;
+		position: absolute;
+		float: left;
+		padding: 0 20px 20px 20px;
+	}	
+
+	.training-developer {
+		position: relative;
+		margin: 0;
+		top: 100px;
+		left: 40px;
+	}
+
+	.training-developer-p {
+		position: relative;
+		margin: 0;
+		top: 150px;
+		width: 200px;
+		right: 350px;
+	}
+
+	#about-me-section {
+		padding: 100px 30% 100px 30%;
+	}
+	
+	.about-me-title {
+		padding-right: 15%;
+		margin-top: 0;
+	}
+	
+	.about-me-text {
+		width: 75%;
+	}
+	
+	#portfolio {
+		padding: 200px;
+	}
+	
+	.portfolio-title {
+		margin: 0;
+	}
+
+	.project-title1, .project-title2, .project-title3 {
+		margin: 0;
+		padding: 30px 0 0 15px;
+
+	}
+	.project-description1, .project-description2, .project-description3 {
+		max-width: 400px;
+		padding: 60px 20px;
+		border: none;
+	}
+
+	#contact {
+		padding: 15px 100px;
+	}
+
+}
